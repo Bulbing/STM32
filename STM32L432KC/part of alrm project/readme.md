@@ -15,8 +15,9 @@
   1.硬件：HC-SR04两个引脚连单片机，一个trigger，一个echo，分别连A6,A7  
   2.软件：主要是看懂(头文件.h)和(.cpp文件)  
   *首先知道（.h文件）里写的是HC-SR04的类库，（.cpp）文件中需要调用。（.h文件）中设置了类（class），分为public，private，public和private其中包含了(.cpp文件）中需要具体写内容的函数  
-  *关于条件编译命令<p>def MBED_HCSR04_H
-                 #define MBED_HCSR04_H
-                 #endif</p>
-  
+  *关于条件编译命令   
+    #def MBED_HCSR04_H  
+    #define MBED_HCSR04_H  
+    #endif  
+
   
